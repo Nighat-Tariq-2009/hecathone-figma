@@ -79,7 +79,7 @@ export default function Review(){
                           className="text-green-500 text-xl"/>
                        </div>
                        <p className="text-sm font-normal">
-                       &quot;As someone who's always on the lookout for unique fashion pieces
+                       &quot;As someone who&#39;s always on the lookout for unique fashion pieces
                        I&#39;m thrilled to have stumbled upon Shop.co. The selection of clothes is not 
                         on-point with the latest trends.&quot;
                        </p>
