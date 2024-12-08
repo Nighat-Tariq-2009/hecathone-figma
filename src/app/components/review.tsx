@@ -29,9 +29,9 @@ export default function Review(){
                           className="text-green-500 text-xl"/>
                        </div>
                        <p className="text-sm font-normal">
-                       "I'm blown away by the quality and style of the clothes I received from Shop.co.
+                       &quot;I&#39;m blown away by the quality and style of the clothes I received from Shop.co.
                         From casual wear to elegant dresses,
-                        every piece I've bought has exceeded my expectations.”
+                        every piece I&#39;ve bought has exceeded my expectations.&quot;
                        </p>
                         
                     </div>
@@ -54,9 +54,9 @@ export default function Review(){
                           className="text-green-500 text-xl"/>
                        </div>
                        <p className="text-sm font-normal">
-                       "Finding clothes that align with my personal style used to be a challenge 
-                        until I discovered Shop.co. The range of options they offer is truly remarkable,
-                        of tastes and occasions.
+                       &quot;Finding clothes that align with my personal style used to be a challenge 
+                        until I discovered Shop.co. The range of options they offer is truly remarkable
+                        of tastes and occasions.&quot;
                        </p>
                         
                     </div>
@@ -79,9 +79,9 @@ export default function Review(){
                           className="text-green-500 text-xl"/>
                        </div>
                        <p className="text-sm font-normal">
-                       "As someone who's always on the lookout for unique fashion pieces, 
-                       I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not 
-                        on-point with the latest trends.”
+                       &quot;As someone who's always on the lookout for unique fashion pieces
+                       I&#39;m thrilled to have stumbled upon Shop.co. The selection of clothes is not 
+                        on-point with the latest trends.&quot;
                        </p>
                         
                     </div>
