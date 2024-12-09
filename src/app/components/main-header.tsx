@@ -1,4 +1,4 @@
-import { ChevronDown, CircleUserRound, Search, ShoppingCart } from "lucide-react";
+import { ChevronDown, CircleUserRound, Menu, Search, ShoppingCart } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 // import { Button } from "@/components/ui/button"
@@ -14,6 +14,7 @@ import Image from "next/image";
 //   SheetTitle,
 //   SheetTrigger,
 // } from "@/components/ui/sheet"
+ 
 
 
 
@@ -24,7 +25,7 @@ export default function MainHeader(){
             <div className="flex flex-1 justify-between items-center p-3">
                 {/* left side */}
                 <div>
-                    <Image src={"/images/logo.png"} width={126} height={18} alt="logo" />
+                    <Image src={"/images/logo.png"} width={150} height={18} alt="logo" />
                 </div>
                
                 <div className="flex justify-center items-center p-3 text-md">
@@ -33,21 +34,58 @@ export default function MainHeader(){
                 </div>
 
                  <div>
-                    <ul>
-                        <li  className="flex justify-center items-center p-3 gap-3 text-md ">
+                    <ul className="hidden lg:block">
+                        <li  className="flex justify-center items-center p-3 gap-3 text-sm ">
                             
                             <Link href="">Sale</Link>
                             <Link href="">New Arrivals</Link>
                             <Link href="">Brands</Link>
                         </li>
                     </ul>
+                    
+                   
+  
+    {/* <Sheet>
+      <SheetTrigger asChild className="lg:hidden">
+        <Button variant="outline"><Menu  /></Button>
+      </SheetTrigger>
+      <SheetContent>
+        <SheetHeader>
+          <SheetTitle>Edit profile</SheetTitle>
+          <SheetDescription>
+            Make changes to your profile here. Click save when you're done.
+          </SheetDescription>
+        </SheetHeader>
+        <div className="grid gap-4 py-4">
+          <div className="grid grid-cols-4 items-center gap-4">
+            <Label htmlFor="name" className="text-right">
+              Name
+            </Label>
+            <Input id="name" value="Pedro Duarte" className="col-span-3" />
+          </div>
+          <div className="grid grid-cols-4 items-center gap-4">
+            <Label htmlFor="username" className="text-right">
+              Username
+            </Label>
+            <Input id="username" value="@peduarte" className="col-span-3" />
+          </div>
+        </div>
+        <SheetFooter>
+          <SheetClose asChild>
+            <Button type="submit">Save changes</Button>
+          </SheetClose>
+        </SheetFooter>
+      </SheetContent>
+    </Sheet> */}
+  
+
                 </div>
 
               </div>
 
                 <div className="flex justify-between items-center p-3 flex-1">
                  {/* right side */}
-                 <div className="relative flex items-center">
+                 <div className="lg:relative lg:flex items-center hidden  ">
              {/* Input Field with Search Icon */}
              <span className="absolute left-3 text-gray-500">
                <Search className="w-4 h-4" />
@@ -59,6 +97,7 @@ export default function MainHeader(){
               />
           </div>
           <div className="flex justify-center items-center p-3 gap-5">
+          <Search className=" lg:hidden"  />
           <ShoppingCart />
           <CircleUserRound />
           </div>
@@ -67,44 +106,9 @@ export default function MainHeader(){
             )
         }
 
-//    shedcn ui
 
-// export function SheetDemo() {
-//     return (
-//       <Sheet>
-//         <SheetTrigger asChild>
-//           {/* <Button variant="outline"><Menu /></Button> */}
-//         </SheetTrigger>
-//         <SheetContent>
-//           <SheetHeader>
-//             <SheetTitle>Edit profile</SheetTitle>
-//             <SheetDescription>
-//               Make changes to your profile here. Click save when you're done.
-//             </SheetDescription>
-//           </SheetHeader>
-//           <div className="grid gap-4 py-4">
-//             <div className="grid grid-cols-4 items-center gap-4">
-//               <Label htmlFor="name" className="text-right">
-//                 Name
-//               </Label>
-//               <Input id="name" value="Pedro Duarte" className="col-span-3" />
-//             </div>
-//             <div className="grid grid-cols-4 items-center gap-4">
-//               <Label htmlFor="username" className="text-right">
-//                 Username
-//               </Label>
-//               <Input id="username" value="@peduarte" className="col-span-3" />
-//             </div>
-//           </div>
-//           <SheetFooter>
-//             <SheetClose asChild>
-//               <Button type="submit">Save changes</Button>
-//             </SheetClose>
-//           </SheetFooter>
-//         </SheetContent>
-//       </Sheet>
-//     )
-//   }
+
+
 
 
 

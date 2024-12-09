@@ -8,7 +8,7 @@ import TopSell from "./components/topSell";
 import Style from "./components/style";
 import Review from "./components/review";
 import Footer from "./components/footer";
-// import { ButtonDemo } from "./components/button";
+
 
 export default function Home() {
   return (
@@ -16,14 +16,13 @@ export default function Home() {
     
       <Header />
       <MainHeader />
-      {/* <ButtonDemo /> */}
       <HeroSection />
       <Brand />
       <NewArrival />
       <TopSell />
       <Style />
       <Review />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

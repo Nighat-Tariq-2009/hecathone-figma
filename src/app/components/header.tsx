@@ -12,12 +12,12 @@ export default function Header(){
             <div className="w-full h-full flex justify-evenly bg-black text-white text-sm p-2">
                 {/* left side */}
                 <div className="flex gap-4">
-                <p>Sign up and get 20% off to your first order.</p>
-                <Link href={""} className="underline"> Sign Up Now</Link>
+                <p className="text-sm font-light">Sign up and get 20% off to your first order.</p>
+                <Link href={""} className="underline text-sm font-light"> Sign Up Now</Link>
                 </div>
                
                 {/* right side */}
-                <div>
+                <div className="hidden md:block">
                 <X />
                  
                 </div>
