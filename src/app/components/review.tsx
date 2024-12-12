@@ -5,16 +5,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle, faStar, faStarHalf } from "@fortawesome/free-solid-svg-icons";
 export default function Review(){
     return(
-        <div className=" max-w-screen-lg mx-auto mt-10 sm:pl-4">
-            <div>
+        <div className=" max-w-screen-xl mx-auto mt-10 sm:pl-4 overflow-hidden">
+            <div className=" ">
                 {/* top container */}
-                <div className="text-4xl font-extrabold font-Integral CF mt-4">
-                    <h1>OUR HAPPY CUSTOMERS</h1>
+                <div className=" flex justify-center items-center text-4xl font-extrabold font-Integral CF mt-4">
+                    <h1 className="">OUR HAPPY CUSTOMERS</h1>
                 </div>
                 {/* Cards container */}
                 {/* card-1 */}
-                <div className="flex justify-between items-center gap-2 flex-wrap">
-                    <div className="w-[300px] h-[240] border rounded-lg my-8 p-5 ">
+                <div className="flex justify-center items-center gap-6 md:gap-12 overflow-x-auto scrollbar-none md:overflow-x-visible">
+                    <div className="w-[350px] h-[200px] border rounded-2xl my-8 p-5 flex-shrink-0">
                            <div className='my-2 flex '>
                             <FontAwesomeIcon icon={faStar} className="text-yellow-500 text-sm " />
                             <FontAwesomeIcon icon={faStar} className="text-yellow-500 text-sm" />
@@ -39,7 +39,7 @@ export default function Review(){
 
                   {/* card-2 */}
                   
-                    <div className="w-[300px] h-[240] border rounded-lg my-8 p-5 ">
+                    <div className="w-[350px] h-[200px] border rounded-2xl my-8 p-5 flex-shrink-0">
                            <div className='my-2 flex '>
                             <FontAwesomeIcon icon={faStar} className="text-yellow-500 text-sm " />
                             <FontAwesomeIcon icon={faStar} className="text-yellow-500 text-sm" />
@@ -64,7 +64,7 @@ export default function Review(){
 
                   {/* card-3 */}
                   
-                    <div className="w-[300px] h-[240] border rounded-lg my-8 p-5 ">
+                    <div className="w-[350px] h-[200px] border rounded-2xl my-8 p-5 flex-shrink-0">
                            <div className='my-2 flex '>
                             <FontAwesomeIcon icon={faStar} className="text-yellow-500 text-sm " />
                             <FontAwesomeIcon icon={faStar} className="text-yellow-500 text-sm" />

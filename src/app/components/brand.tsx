@@ -1,8 +1,8 @@
 import Image from "next/image"
 export default function Brand(){
     return(
-        <div className="flex justify-center items-center  max-w-screen-lg mx-auto  ">
-            <div className=" w-full h-full flex justify-evenly items-center  bg-black flex-wrap p-6">
+        <div className="flex justify-center items-center  max-w-screen-xl mx-auto  ">
+            <div className=" w-full h-full flex justify-center items-center  bg-black flex-wrap gap-8  md:gap-18 lg:gap-28 p-3">
                
                 <Image src={"/images/vers.png"} width={120} height={33} alt="logo" />
                 
