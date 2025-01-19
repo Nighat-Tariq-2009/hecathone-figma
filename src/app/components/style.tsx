@@ -1,7 +1,7 @@
 import Image from "next/image"
 export default function Style(){
     return(
-       <div className=" max-w-screen-xl mx-auto mt-10 ">
+       <div id="shop" className=" max-w-screen-xl mx-auto mt-10 ">
         <div className="w-full h-full bg-[#F0F0F0] rounded-xl flex flex-col justify-center items-center">
             {/* top container */}
             <div className="flex justify-center items-center p-8 w-full h-full">

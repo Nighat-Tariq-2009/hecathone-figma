@@ -2,10 +2,10 @@ import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css"; // Import Font Awesome CSS
 config.autoAddCss = false; // Disable auto CSS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCheckCircle, faStar, faStarHalf } from "@fortawesome/free-solid-svg-icons";
+import { faCheckCircle, faStar } from "@fortawesome/free-solid-svg-icons";
 export default function Review(){
     return(
-        <div className=" max-w-screen-xl mx-auto mt-10 sm:pl-4 overflow-hidden">
+        <div id="sale" className=" max-w-screen-xl mx-auto mt-10 sm:pl-4 overflow-hidden">
             <div className=" ">
                 {/* top container */}
                 <div className=" flex justify-center items-center text-4xl font-extrabold font-Integral CF mt-4">
