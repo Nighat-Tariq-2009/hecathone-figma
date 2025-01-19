@@ -43,11 +43,11 @@ export default function Cart(){
     return(
         <div className="flex justify-center items-center gap-3">
             {/* left div */}
-            <div className="w-full h-full md:w-[700px] md:h-[500px] rounded-[20px] border mt-4">
+            <div  className="w-full h-full md:w-[700px] md:h-[500px] rounded-[20px] border mt-4">
                 {
                     cartItem.map((item) =>{
                         return(
-                           <div className="flex justify-between mt-4 p-4 border-b">
+                           <div  key={item.id} className="flex justify-between mt-4 p-4 border-b">
                              <div className="flex gap-3">
                             <Image src={item.imageurl} alt={item.title} width={100} height={100} />
                             <div>

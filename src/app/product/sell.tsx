@@ -39,7 +39,7 @@ let product:Iproducts[] =  [
         
             }
 ]
-let star = [<FaStar/>,<FaStar/>,<FaStar/>,<FaStar/>,<FaStar/>]
+let star = Array(5).fill(null).map((_, index) => <FaStar key={index} />);
 export default function Top_sell(){
     return(
     <div className="w-full h-full sm:h-[500px] mt-10">

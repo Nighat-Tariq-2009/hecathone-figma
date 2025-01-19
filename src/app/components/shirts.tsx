@@ -76,41 +76,10 @@ let product:Iproducts[] =  [
                        
                            },
 ]
-let star = [<FaStar/>,<FaStar/>,<FaStar/>,<FaStar/>,<FaStar/>]
+let star = Array(5).fill(null).map((_, index) => <FaStar key={index} />);
 export default function Shirts(){
     return(
-    // <div className="w-full h-full sm:h-[500px] mt-10 overflow-x-hidden">
-    //     <h1 className="text-3xl md:text-4xl font-bold text-center">NEW ARRIVALS</h1>
-
-    //     <div className="flex flex-wrap flex-col md:flex-row justify-center items-center md:justify-between px-4  md:px-8 mt-10   ">
-    //         {
-    //             product.map((data) => {
-    //                 return(
-    //                     <div  key={data.id}>
-    //                         <Link href={`/product/${data.id}`} >
-    //                         <div className="w-full sm:w-[270px] h-[275px] bg-[#F0EEED] rounded-[20px]">
-    //                             <Image src={data.img_url} alt={data.title} width={100} height={100} 
-    //                             className="w-full h-full rounded-[20px]"></Image>
-    //                         </div>
-    //                         </Link>
-    //                         <div>
-    //                             <p className="text-lg mt-2 font-bold">{data.title}</p>
-    //                             <p className="flex text-yellow-400">{star}</p>
-    //                             <p className="font-bold mt-1">{data.price}<span className="text-gray-400 font-bold line-through">{data.old_price}</span></p>
-                               
-    //                         </div>
-                          
-    //                     </div>
-    //                 )
-    //             })
-
-    //         }
-    //     </div>
-
-
-    // </div>
-
-
+    
     <div className="w-full h-full sm:h-[500px] mt-10 ">
     <h1 className="text-3xl md:text-4xl font-bold text-center">NEW ARRIVALS</h1>
 
