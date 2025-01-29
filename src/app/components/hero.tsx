@@ -27,14 +27,16 @@ export default function HeroSection(){
                 <div className="flex flex-1 relative">
                     <Image src={"/images/hero-img.png"} width={500} height={500} alt="heroImage" />
 
-                 {/* Left Star */}
+                 
       <div className="absolute left-5 top-1/2 transform -translate-y-1/2  custom-spin">
-      <Image src={"/images/vector1.png"} width={56} height={56} alt="heroImage" />
+      <Image src={"/images/Vector1.png"} width={56} height={56} alt="heroImage" />
       </div>
-      {/* Right Star */}
+    
       <div className="absolute right-5 top-[10%] transform -translate-y-1/2  custom-spin">
-      <Image src={"/images/vector1.png"} width={104} height={104} alt="heroImage" />
+      <Image src={"/images/Vector1.png"} width={104} height={104} alt="heroImage" />
       </div>
+     
+     
 
 
                 </div>
